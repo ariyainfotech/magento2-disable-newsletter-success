@@ -1,14 +1,48 @@
-# Disable newsletter subscription success email by Metagento
-This Magento 2 extension helps store owner to disable newsletter subscription success email ( with configuration )
+# Mage2 Module AriyaInfoTech DisableNewsletterSuccess
 
-Installation via composer:
+    ``ariyainfotech/module-disablenewslettersuccess``
 
-```
-composer require metagento/disable-newsletter-success-magento2
-php bin/magento setup:upgrade
-php bin/magento setup:static-content:deploy
-```
+ - [Main Functionalities](#markdown-header-main-functionalities)
+ - [Installation](#markdown-header-installation)
+ - [Configuration](#markdown-header-configuration)
+ - [Specifications](#markdown-header-specifications)
+ - [Attributes](#markdown-header-attributes)
 
-After install the module, please go to Store -> Configuration -> Customers -> Newsletter to enable the function
 
-![Disable newsletter success email by Metagento](http://www.metagento.com/media/metagento/disable-newsletter-success-email-m2/backend-configuration.png)
+## Main Functionalities
+Module Developed By Ariya InfoTech
+
+## Installation
+\* = in production please use the `--keep-generated` option
+
+### Type 1: Zip file
+
+ - Unzip the zip file in `app/code/AriyaInfoTech`
+ - Enable the module by running `php bin/magento module:enable AriyaInfoTech_DisableNewsletterSuccess`
+ - Apply database updates by running `php bin/magento setup:upgrade`\*
+ - Flush the cache by running `php bin/magento cache:flush`
+
+### Type 2: Composer
+
+ - Make the module available in a composer repository for example:
+    - private repository `repo.magento.com`
+    - public repository `packagist.org`
+    - public github repository as vcs
+ - Add the composer repository to the configuration by running `composer config repositories.repo.magento.com composer https://repo.magento.com/`
+ - Install the module composer by running `composer require ariyainfotech/module-newsletterdiscountpro`
+ - enable the module by running `php bin/magento module:enable AriyaInfoTech_DisableNewsletterSuccess`
+ - apply database updates by running `php bin/magento setup:upgrade`\*
+ - Flush the cache by running `php bin/magento cache:flush`
+
+
+## Configuration
+
+
+
+
+## Specifications
+
+
+
+
+## Attributes
